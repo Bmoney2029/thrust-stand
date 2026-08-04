@@ -15,8 +15,8 @@
 const char* HOSTNAME      = "thruststand";          // reachable at http://thruststand.local
 
 // ================= Load cell =================
-const int DT_PIN  = 14;
-const int SCK_PIN = 13;
+const int DT_PIN  = 13;
+const int SCK_PIN = 14;
 
 // Run the calibration sketch and paste the resulting factor here.
 const float CALIBRATION_FACTOR = 360;
